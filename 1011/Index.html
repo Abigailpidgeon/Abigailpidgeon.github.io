@@ -2,29 +2,113 @@
 
 <head>
     <title>Mis 3033 October 11 Abigail Pidgeon</title>
+
+    <style>
+        #maindiv 
+        {
+            background-color: whitesmoke;
+            width: 800px;
+            height: 500px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: flex-end;
+            margin-top: 50px;
+        }
+
+        .d1 
+        {
+            width: 100px;
+            height: 120px;
+            margin-left: 10px;
+            margin-top: 10px;
+            background-color: lightpink;
+        }
+
+        #webdiv 
+        {
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #footerdiv 
+        {
+            width: 1000px;
+            height: 50px;
+            background-color: aliceblue;
+            color: darkgrey;
+            border-radius: 5px;
+            display:flex;
+            flex-direction:row;
+            justify-content:center;
+            align-items:center;
+        }
+        #bodydiv
+        {
+            width:480px;
+            display:flex;
+            flex-direction:row;
+    
+        }
+        #leftdiv 
+        {
+            border-width: 2px;
+            border-style: solid;
+            border-color: darkgray;
+            border-radius: 10px;
+            color:dodgerblue;
+            font-size:20pt;
+            font-weight:bold;
+
+        }
+        #rightdiv 
+        {
+            border-width: 2px;
+            border-style: solid;
+            border-color: darkgray;
+            border-radius: 10px;
+            
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+        }
+        #headerdiv 
+        {
+            width: 1000px;
+            height: 100px;
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+
 </head>
 
-<style>
-    #maindiv
-    {
-        background-color:deepskyblue;
-        width: 800px;
-        height: 500px;
-        display: flex;
-        flex-direction: row;
-
-    }
-    .d1
-    {
-        width:100px;
-        height:120px;
-        margin-left:10px;
-        margin-top:10px;
-        background-color:lightpink;
-    }
-</style>
-
 <body>
+
+    <div id="webdiv">
+        web page
+
+        <div id="headerdiv">
+            <div style="font-size: 30pt; color: dodgerblue; text-transform: uppercase; font-weight: bold;">I Love Programming!</div>
+             <div><img style="width:100px;" src="a.svg" /></div>
+        </div>
+
+        <div id="bodydiv">
+            <div id="leftdiv">left</div>
+
+            <div id="rightdiv">
+                <div style="color: dodgerblue; font-size: 20pt; font-weight: bold;">I Love Mis3033</div>
+                <div><img style="width:400px;" src="b.svg"/></div>
+            </div>
+
+        </div>
+
+        <div id="footerdiv">Designed and Developed by Abigail Pidgeon for MIS 3033 Exam 2</div>
+    </div>
 
     <div id="maindiv">
         <div class="d1">div1</div>
