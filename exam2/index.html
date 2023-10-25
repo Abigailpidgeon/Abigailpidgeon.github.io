@@ -1,18 +1,164 @@
 <html>
 
 <head>
-    <title>[exam code] Abigail Pidgeon Exam 2 MIS3033</title>
+    <title>[ZCAT] Abigail Pidgeon Exam 2 MIS3033</title>
+    <style>
+        #maindiv
+        {
+            width:800px;
+        }
+        #head
+        {
+            display:flex;
+            flex-direction:row;
+            align-items:center;
+            text-align:center;
+           
+
+        }
+        #b1
+        {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            height: 80px;
+        }
+        #b2 
+        {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+          
+        }
+        #Left
+        {
+
+        }
+        #up
+        {
+            width:510px;
+            height:110px;
+        }
+        #down
+        {
+            width:510px;
+            height:160px;
+    
+        }
+        #imgs {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            text-align:center;
+        }
+        #Right 
+        {
+          
+
+        }
+        #foot {
+            font-weight: bold;
+            font-size: 20px;
+            color: grey;
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            align-items:center;
+        }
+        .border
+        {
+            border-style:solid;
+            border-width:1px;
+            border-color:lightgrey;
+            border-radius:5px;
+        }
+        .t
+        {
+            text-transform:uppercase;
+            background-color:lightskyblue;
+            border-radius:5px;
+        }
+    </style>
 </head>
 
 <body>
-    <img src="static/head1.png" style="height:100px;" />
-    <img src="static/head2.png" style="height:100px;" />
-    <img src="static/linkedin.png" style="height:100px;" />
-    <img src="static/html.svg" style="height:100px;" />
-    <img src="static/css.svg" style="height:100px;" />
-    <img src="static/javascript.svg" style="height:100px;" />
-    <img src="static/sqlite.svg" style="height:100px;" />
-    <img src="static/logo.svg" style="height:100px;" />
+    <div id="maindiv">
+
+        <div id="head">
+
+            <div class="border" style="width:200px; height:70px;">
+            MIS 3033 Exam 2 <br /> Abigail Pidgeon
+            </div>
+
+            <div class="border" style="width:200px; height:70px;">
+            [ZCAT]
+            </div>
+
+        </div>
+
+        <div id="b1" class="border">
+
+            <div> <img src="static/head2.png" style="height:60px;border-radius:50%;" /></div>
+            <div>Abigail Pidgeon<br />MIS Student</div>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="static/linkedin.png" style="height:30px;" /></a>
+
+        </div>
+
+        <div id="b2">
+
+            <div id="Left" class="border">
+
+                <div id="up" class="border">
+                    <span class="t">ABOUT ME:</span>
+                    <div>I am a MIS student. I like programming and I am good at C#. I leaned Entity Framework for Database Manipulations. I know HTML, CSS and I started to learn JavaScript. It is fun. Later I will learn C# .NET MVC Dynamic Web App development and Web API development.</div>
+                </div>
+
+                <div id="down" class="border">
+                    <span class="t">ACHIEVEMENTS</span>
+
+                    <div id="imgs">
+                        <div class="border">
+                            <img src="static/html.svg" style="height:100px;" /><br />
+                            HTML
+                        </div>
+
+                        <div class="border">
+                            <img src="static/css.svg" style="height:100px;" /><br />
+                            CSS
+                        </div>
+
+                        <div class="border">
+                            <img src="static/javascript.svg" style="height:100px;" /><br />
+                            JavaScript
+                        </div>
+                    </div>
+                 
+
+                </div>
+
+            </div>
+
+            <div id="Right" class="border" style="width:280px;height:270px;">
+                <span class="t">RECENT NEWS:</span>
+                <ul>
+                    <li>Learned C#</li>
+                    <li>Learned Entity Framework</li>
+                    <li>Learned <img src="static/sqlite.svg" style="height:40px;" /></li>
+                </ul>
+
+            </div>
+     
+        </div>
+
+        <div id="foot" class="border" style="height:60px;">
+            <div>Developed by Abigail Pidgeon for MIS 3033 Exam 2</div>
+            <div><img src="static/logo.svg" style="height:50px;" /></div>
+
+        </div>
+
+    </div> 
+    
 </body>
 
 </html>
